@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-brand-black font-sans antialiased;
+}
+
+/* Editorial letter-spacing for all uppercase headings */
+.editorial-title {
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* Thin rule divider */
+.rule {
+  @apply border-t border-brand-light-gray;
+}
+
+/* Nav link hover underline animation */
+.nav-link {
+  @apply relative text-xs tracking-widest uppercase font-normal text-brand-black transition-colors duration-300;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute left-0 -bottom-0.5 w-0 h-px bg-brand-black transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+/* Portfolio grid image hover scale */
+.portfolio-item img {
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.03);
+}
+
+.portfolio-item .overlay {
+  @apply absolute inset-0 bg-black/0 transition-all duration-500;
+}
+
+.portfolio-item:hover .overlay {
+  @apply bg-black/15;
+}

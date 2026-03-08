@@ -1,0 +1,48 @@
+{
+    "items": [
+        {
+            "id": "ana-rocha",
+            "titleEs": "Ana Rocha & Apolinário",
+            "titleEn": "Ana Rocha & Apolinário",
+            "titlePt": "Ana Rocha & Apolinário",
+            "titleFr": "Ana Rocha & Apolinário",
+            "subtitleEs": "Campaña Marca Jóias",
+            "subtitleEn": "Jewelry Brand Campaign",
+            "subtitlePt": "Campanha Marca de Joias",
+            "subtitleFr": "Campagne de la marque de bijoux",
+            "category": "filme-video",
+            "image": "/images/gallery/ana-rocha-e-apolinario/DSC05923 (1).jpg",
+            "coverImage": "/images/gallery/ana-rocha-e-apolinario/DSC05923 (1).jpg",
+            "images": [
+                "/images/gallery/ana-rocha-e-apolinario/DSC05923 (1).jpg"
+            ],
+            "videos": [],
+            "featured": true,
+            "order": 1,
+            "createdAt": "2024-02-24T00:00:00.000Z",
+            "updatedAt": "2024-02-24T03:38:00.000Z"
+        },
+        {
+            "id": "mayron-brum",
+            "titleEs": "Mayron Brum",
+            "titleEn": "Mayron Brum",
+            "titlePt": "Mayron Brum",
+            "titleFr": "Mayron Brum",
+            "subtitleEs": "Shooting",
+            "subtitleEn": "Shooting",
+            "subtitlePt": "Shooting",
+            "subtitleFr": "Shooting",
+            "category": "filme-video",
+            "image": "/images/gallery/mayron-brum/DSC09567.webp",
+            "coverImage": "/images/gallery/mayron-brum/DSC09567.webp",
+            "images": [
+                "/images/gallery/mayron-brum/DSC09567.webp"
+            ],
+            "videos": [],
+            "featured": true,
+            "order": 2,
+            "createdAt": "2024-02-24T00:00:00.000Z",
+            "updatedAt": "2024-02-24T03:38:00.000Z"
+        }
+    ]
+}
