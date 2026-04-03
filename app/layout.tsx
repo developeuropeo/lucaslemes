@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,9 +8,15 @@ const inter = Inter({
     variable: "--font-inter",
 });
 
+const playfair = Playfair_Display({
+    subsets: ["latin"],
+    weight: ["400", "500", "600", "700"],
+    variable: "--font-playfair",
+});
+
 export const metadata: Metadata = {
-    title: "Lucas Lemes",
-    description: "Videomaker · Produção Visual",
+    title: "LEMS",
+    description: "Creative Direction",
     icons: { icon: "/icon.svg" },
 };
 
@@ -21,7 +27,7 @@ export default function RootLayout({
 }) {
     return (
         <html>
-            <body className={`${inter.variable} antialiased`}>
+            <body className={`${inter.variable} ${playfair.variable} antialiased`}>
                 {children}
             </body>
         </html>

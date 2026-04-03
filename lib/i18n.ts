@@ -12,7 +12,7 @@ export const translations = {
             menuLabel: "Abrir menú",
         },
         footer: {
-            tagline: "videomaker · producción visual",
+            tagline: "creative direction",
         },
         home: {
             showreel: "Showreel",
@@ -30,12 +30,12 @@ export const translations = {
         },
         about: {
             pageLabel: "Acerca de",
-            pageTitle: "Lucas Lemes",
-            metaTitle: "Acerca de — Lucas Lemes",
+            pageTitle: "LEMS",
+            metaTitle: "Acerca de — LEMS",
             metaDesc:
-                "Lucas Lemes es director audiovisual, documentalista y productor con actuación internacional entre Europa, América del Sur, África y Estados Unidos.",
+                "LEMS es director audiovisual, documentalista y productor con actuación internacional entre Europa, América del Sur, África y Estados Unidos.",
             role: "Director Audiovisual · Documentalista · Productor",
-            bio1: "Lucas Lemes es director audiovisual, documentalista y productor con actuación internacional entre Europa, América del Sur, África y Estados Unidos. Su trabajo transita entre cine, moda, publicidad y proyectos culturales, siempre orientado por la narrativa, la estética y la identidad.",
+            bio1: "LEMS es director audiovisual, documentalista y productor con actuación internacional entre Europa, América del Sur, África y Estados Unidos. Su trabajo transita entre cine, moda, publicidad y proyectos culturales, siempre orientado por la narrativa, la estética y la identidad.",
             bio2: "Con más de diez años de experiencia, construyó su trayectoria en contextos globales como el Festival de Cannes (Francia), Paris Fashion Week, London Fashion Week y las Olimpiadas de París, además de producciones realizadas en ciudades como Nueva York y Aspen, en Estados Unidos. Sus proyectos han circulado en entornos internacionales de alto nivel e incluyen un documental exhibido en CNN Portugal (NiT TV), además de producciones vinculadas a marcas y eventos de relevancia global.",
             bio3: "Su actuación combina lenguaje cinematográfico y precisión estética, ya sea en la dirección de documentales de autor filmados en múltiples países, o en la creación de contenidos visuales para grandes marcas, artistas e instituciones culturales. A lo largo de su carrera, ha desarrollado trabajos en ciudades como Cannes, París, Londres, Lisboa, Zúrich, Nueva York y Aspen, consolidando una práctica multicultural y transnacional.",
             bio4: "Paralelamente a su trabajo comercial y de moda, desarrolla proyectos de autor con un enfoque social e intercultural. Actualmente dirige un documental internacional filmado en 11 países, explorando temas como la longevidad, la salud mental y el propósito desde una perspectiva humana y global.",
@@ -50,8 +50,8 @@ export const translations = {
         portfolio: {
             pageLabel: "Trabajos",
             pageTitle: "Portafolio",
-            metaTitle: "Portafolio — Lucas Lemes",
-            metaDesc: "Portafolio de Lucas Lemes: películas, vídeos y branded content de alto nivel.",
+            metaTitle: "Portafolio — LEMS",
+            metaDesc: "Portafolio de LEMS: películas, vídeos y branded content de alto nivel.",
             cat1: "Cine / Vídeo",
             cat2: "Comercial / Branded Content",
             cat3: "Fotografía / Galería",
@@ -74,8 +74,8 @@ export const translations = {
         services: {
             pageLabel: "Lo que ofrezco",
             pageTitle: "Servicios",
-            metaTitle: "Servicios — Lucas Lemes",
-            metaDesc: "Servicios de producción audiovisual ofrecidos por Lucas Lemes: cine, branded content, publicidad y más.",
+            metaTitle: "Servicios — LEMS",
+            metaDesc: "Servicios de producción audiovisual ofrecidos por LEMS: cine, branded content, publicidad y más.",
             ctaLabel: "¿Listo para crear algo extraordinario?",
             ctaBtn: "Ponerse en contacto",
             list: [
@@ -114,9 +114,9 @@ export const translations = {
         contact: {
             pageLabel: "Escríbeme",
             pageTitle: "Contacto",
-            metaTitle: "Contacto — Lucas Lemes",
-            metaDesc: "Ponte en contacto con Lucas Lemes para proyectos de videomaker y producción visual.",
-            intro: "Abierto a proyectos de cine, publicidad, branded content y producción visual. Ponte en contacto para hablar sobre tu próximo proyecto.",
+            metaTitle: "Contacto — LEMS",
+            metaDesc: "Ponte en contacto con LEMS para proyectos de dirección creativa y producción audiovisual.",
+            intro: "Abierto a proyectos de cine, publicidad, branded content y dirección creativa. Ponte en contacto para hablar sobre tu próximo proyecto.",
             emailLabel: "Correo electrónico",
             locationLabel: "Ubicación",
             locationValue: "Brasil — proyectos nacionales e internacionales",
@@ -209,7 +209,7 @@ export const translations = {
             menuLabel: "Open menu",
         },
         footer: {
-            tagline: "videomaker · visual production",
+            tagline: "creative direction",
         },
         home: {
             showreel: "Showreel",
@@ -227,12 +227,12 @@ export const translations = {
         },
         about: {
             pageLabel: "About",
-            pageTitle: "Lucas Lemes",
-            metaTitle: "About — Lucas Lemes",
+            pageTitle: "LEMS",
+            metaTitle: "About — LEMS",
             metaDesc:
-                "Lucas Lemes is an audiovisual director, documentarian and producer with international experience across Europe, South America, Africa and the United States.",
+                "LEMS is an audiovisual director, documentarian and producer with international experience across Europe, South America, Africa and the United States.",
             role: "Audiovisual Director · Documentarian · Producer",
-            bio1: "Lucas Lemes is an audiovisual director, documentarian and producer with international experience across Europe, South America, Africa and the United States. His work oscillates between cinema, fashion, advertising and cultural projects, always driven by narrative, aesthetics and identity.",
+            bio1: "LEMS is an audiovisual director, documentarian and producer with international experience across Europe, South America, Africa and the United States. His work oscillates between cinema, fashion, advertising and cultural projects, always driven by narrative, aesthetics and identity.",
             bio2: "With over ten years of experience, he has built a career in global contexts such as the Cannes Film Festival (France), Paris Fashion Week, London Fashion Week and the Paris Olympics, in addition to productions in cities like New York and Aspen, in the United States. His projects have circulated in high-level international environments and include a documentary aired on CNN Portugal (NiT TV), as well as productions linked to globally relevant brands and events.",
             bio3: "His work combines cinematographic language and aesthetic precision, whether directing original documentaries filmed in multiple countries or creating visual content for major brands, artists and cultural institutions. Throughout his career, he has developed work in cities such as Cannes, Paris, London, Lisbon, Zurich, New York and Aspen, consolidating a multicultural and transnational practice.",
             bio4: "Parallel to his commercial and fashion work, he develops original projects with a social and intercultural approach. He is currently directing an international documentary filmed in 11 countries, exploring themes such as longevity, mental health and purpose from a human and global perspective.",
@@ -247,8 +247,8 @@ export const translations = {
         portfolio: {
             pageLabel: "Works",
             pageTitle: "Portfolio",
-            metaTitle: "Portfolio — Lucas Lemes",
-            metaDesc: "Portfolio of Lucas Lemes: films, videos and high-end branded content.",
+            metaTitle: "Portfolio — LEMS",
+            metaDesc: "Portfolio of LEMS: films, videos and high-end branded content.",
             cat1: "Film / Video",
             cat2: "Commercial / Branded Content",
             cat3: "Photography / Gallery",
@@ -271,8 +271,8 @@ export const translations = {
         services: {
             pageLabel: "What I offer",
             pageTitle: "Services",
-            metaTitle: "Services — Lucas Lemes",
-            metaDesc: "Audiovisual production services by Lucas Lemes: film, branded content, advertising, and more.",
+            metaTitle: "Services — LEMS",
+            metaDesc: "Audiovisual production services by LEMS: film, branded content, advertising, and more.",
             ctaLabel: "Ready to create something extraordinary?",
             ctaBtn: "Get in touch",
             list: [
@@ -311,9 +311,9 @@ export const translations = {
         contact: {
             pageLabel: "Get in touch",
             pageTitle: "Contact",
-            metaTitle: "Contact — Lucas Lemes",
-            metaDesc: "Contact Lucas Lemes for videomaker and visual production projects.",
-            intro: "Open to projects in cinema, advertising, branded content and visual production. Get in touch to talk about your next project.",
+            metaTitle: "Contact — LEMS",
+            metaDesc: "Contact LEMS for creative direction and audiovisual production projects.",
+            intro: "Open to projects in cinema, advertising, branded content and creative direction. Get in touch to talk about your next project.",
             emailLabel: "Email",
             locationLabel: "Location",
             locationValue: "Brazil — national and international projects",
@@ -406,7 +406,7 @@ export const translations = {
             menuLabel: "Abrir menu",
         },
         footer: {
-            tagline: "videomaker · produção visual",
+            tagline: "creative direction",
         },
         home: {
             showreel: "Showreel",
@@ -424,12 +424,12 @@ export const translations = {
         },
         about: {
             pageLabel: "Sobre",
-            pageTitle: "Lucas Lemes",
-            metaTitle: "Sobre — Lucas Lemes",
+            pageTitle: "LEMS",
+            metaTitle: "Sobre — LEMS",
             metaDesc:
-                "Lucas Lemes é diretor audiovisual, documentarista e produtor com atuação internacional entre Europa, América do Sul, África e Estados Unidos.",
+                "LEMS é diretor audiovisual, documentarista e produtor com atuação internacional entre Europa, América do Sul, África e Estados Unidos.",
             role: "Diretor Audiovisual · Documentarista · Produtor",
-            bio1: "Lucas Lemes é diretor audiovisual, documentarista e produtor com atuação internacional entre Europa, América do Sul, África e Estados Unidos. Seu trabalho transita entre cinema, moda, publicidade e projetos autorais, sempre movido pela narrativa, estética e identidade.",
+            bio1: "LEMS é diretor audiovisual, documentarista e produtor com atuação internacional entre Europa, América do Sul, África e Estados Unidos. Seu trabalho transita entre cinema, moda, publicidade e projetos autorais, sempre movido pela narrativa, estética e identidade.",
             bio2: "Com mais de dez anos de experiência, construiu sua trajetória em contextos globais como o Festival de Cannes (França), Paris Fashion Week, London Fashion Week e as Olimpíadas de Paris, além de produções realizadas em cidades como Nova York e Aspen, nos Estados Unidos. Seus projetos circularam em ambientes internacionais de alto nível e incluem um documentário exibido na CNN Portugal (NiT TV), além de produções vinculadas a marcas e eventos de relevância global.",
             bio3: "Sua atuação combina linguagem cinematográfica e precisão estética, seja na direção de documentários de autor filmados em múltiplos países, ou na criação de conteúdos visuais para grandes marcas, artistas e instituições culturais. Ao longo de sua carreira, desenvolveu trabalhos em cidades como Cannes, Paris, Londres, Lisboa, Zurique, Nova York e Aspen, consolidando uma prática multicultural e transnacional.",
             bio4: "Paralelamente ao seu trabalho comercial e de moda, desenvolve projetos autorais com foco social e intercultural. Atualmente dirige um documentário internacional filmado em 11 países, explorando temas como longevidade, saúde mental e propósito a partir de uma perspectiva humana e global.",
@@ -444,8 +444,8 @@ export const translations = {
         portfolio: {
             pageLabel: "Trabalhos",
             pageTitle: "Portfólio",
-            metaTitle: "Portfólio — Lucas Lemes",
-            metaDesc: "Portfólio de Lucas Lemes: filmes, vídeos e branded content de alto nível.",
+            metaTitle: "Portfólio — LEMS",
+            metaDesc: "Portfólio de LEMS: filmes, vídeos e branded content de alto nível.",
             cat1: "Cinema / Vídeo",
             cat2: "Comercial / Branded Content",
             cat3: "Fotografia / Galería",
@@ -468,8 +468,8 @@ export const translations = {
         services: {
             pageLabel: "O que ofereço",
             pageTitle: "Serviços",
-            metaTitle: "Serviços — Lucas Lemes",
-            metaDesc: "Serviços de produção audiovisual oferecidos por Lucas Lemes: cinema, branded content, publicidade e mais.",
+            metaTitle: "Serviços — LEMS",
+            metaDesc: "Serviços de produção audiovisual oferecidos por LEMS: cinema, branded content, publicidade e mais.",
             ctaLabel: "Pronto para criar algo extraordinário?",
             ctaBtn: "Entrar em contato",
             list: [
@@ -508,9 +508,9 @@ export const translations = {
         contact: {
             pageLabel: "Escreva para mim",
             pageTitle: "Contato",
-            metaTitle: "Contato — Lucas Lemes",
-            metaDesc: "Entre em contato com Lucas Lemes para projetos de videomaker e produção visual.",
-            intro: "Aberto a projetos de cinema, publicidade, branded content e produção visual. Entre em contato para falar sobre seu próximo projeto.",
+            metaTitle: "Contato — LEMS",
+            metaDesc: "Entre em contato com LEMS para projetos de direção criativa e produção audiovisual.",
+            intro: "Aberto a projetos de cinema, publicidade, branded content e direção criativa. Entre em contato para falar sobre seu próximo projeto.",
             emailLabel: "E-mail",
             locationLabel: "Localização",
             locationValue: "Brasil — projetos nacionais e internacionais",
@@ -603,7 +603,7 @@ export const translations = {
             menuLabel: "Ouvrir le menu",
         },
         footer: {
-            tagline: "vidéaste · production visuelle",
+            tagline: "creative direction",
         },
         home: {
             showreel: "Showreel",
@@ -621,12 +621,12 @@ export const translations = {
         },
         about: {
             pageLabel: "À propos",
-            pageTitle: "Lucas Lemes",
-            metaTitle: "À propos — Lucas Lemes",
+            pageTitle: "LEMS",
+            metaTitle: "À propos — LEMS",
             metaDesc:
-                "Lucas Lemes est réalisateur audiovisuel, documentariste et producteur avec une expérience internationale entre l'Europe, l'Amérique du Sud, l'Afrique et les États-Unis.",
+                "LEMS est réalisateur audiovisuel, documentariste et producteur avec une expérience internationale entre l'Europe, l'Amérique du Sud, l'Afrique et les États-Unis.",
             role: "Réalisateur Audiovisuel · Documentariste · Producteur",
-            bio1: "Lucas Lemes est réalisateur audiovisuel, documentariste et producteur avec une expérience internationale entre l'Europe, l'Amérique du Sud, l'Afrique et les États-Unis. Son travail oscille entre cinéma, mode, publicité et projets d'auteur, toujours guidé par la narration, l'esthétique et l'identité.",
+            bio1: "LEMS est réalisateur audiovisuel, documentariste et producteur avec une expérience internationale entre l'Europe, l'Amérique du Sud, l'Afrique et les États-Unis. Son travail oscille entre cinéma, mode, publicité et projets d'auteur, toujours guidé par la narration, l'esthétique et l'identité.",
             bio2: "Avec plus de dix ans d'expérience, il a construit son parcours dans des contextes mondiaux tels que le Festival de Cannes (France), la Paris Fashion Week, la London Fashion Week et les Jeux Olympiques de Paris, ainsi que des productions réalisées dans des villes comme New York et Aspen, aux États-Unis. Ses projets ont circulé dans des environnements internationaux de haut niveau et incluent un documentaire diffusé sur CNN Portugal (NiT TV), ainsi que des productions liées à des marques et des événements de portée mondiale.",
             bio3: "Son travail combine langage cinématographique et précision esthétique, que ce soit dans la réalisation de documentaires d'auteur filmés dans plusieurs pays, ou dans la création de contenus visuels pour de grandes marques, des artistes et des institutions culturelles. Tout au long de sa carrière, il a développé des travaux dans des villes comme Cannes, Paris, Londres, Lisbonne, Zurich, New York et Aspen, consolidant une pratique multiculturelle et transnationale.",
             bio4: "Parallèlement à son travail commercial et de mode, il développe des projets d'auteur axés sur le social et l'interculturel. Il réalise actuellement un documentaire international filmé dans 11 pays, explorant des thèmes tels que la longévité, la santé mentale et le sens de la vie d'un point de vue humain et global.",
@@ -641,8 +641,8 @@ export const translations = {
         portfolio: {
             pageLabel: "Travaux",
             pageTitle: "Portfolio",
-            metaTitle: "Portfolio — Lucas Lemes",
-            metaDesc: "Portfolio de Lucas Lemes : films, vidéos et contenu de marque haut de gamme.",
+            metaTitle: "Portfolio — LEMS",
+            metaDesc: "Portfolio de LEMS : films, vidéos et contenu de marque haut de gamme.",
             cat1: "Cinéma / Vidéo",
             cat2: "Commercial / Branded Content",
             cat3: "Photographie / Galerie",
@@ -665,8 +665,8 @@ export const translations = {
         services: {
             pageLabel: "Ce que je propose",
             pageTitle: "Services",
-            metaTitle: "Services — Lucas Lemes",
-            metaDesc: "Services de production audiovisuelle proposés par Lucas Lemes : cinéma, contenu de marque, publicité et plus.",
+            metaTitle: "Services — LEMS",
+            metaDesc: "Services de production audiovisuelle proposés par LEMS : cinéma, contenu de marque, publicité et plus.",
             ctaLabel: "Prêt à créer quelque chose d'extraordinaire ?",
             ctaBtn: "Prendre contact",
             list: [
@@ -705,9 +705,9 @@ export const translations = {
         contact: {
             pageLabel: "Écrivez-moi",
             pageTitle: "Contact",
-            metaTitle: "Contact — Lucas Lemes",
-            metaDesc: "Contactez Lucas Lemes pour des projets de vidéaste et de production visuelle.",
-            intro: "Ouvert aux projets de cinéma, publicité, contenu de marque et production visuelle. Contactez-moi pour discuter de votre prochain projet.",
+            metaTitle: "Contact — LEMS",
+            metaDesc: "Contactez LEMS pour des projets de direction créative et de production audiovisuelle.",
+            intro: "Ouvert aux projets de cinéma, publicité, contenu de marque et direction créative. Contactez-moi pour discuter de votre prochain projet.",
             emailLabel: "Courriel",
             locationLabel: "Emplacement",
             locationValue: "Brésil — projets nationaux et internationaux",

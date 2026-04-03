@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
         // 2. Enviar e-mail se a chave do Resend estiver configurada
         if (resend) {
             const { error: emailError } = await resend.emails.send({
-                from: "Portfolio Lucas Lemes <site@lucaslemes.com>",
+                from: "Portfolio LEMS <site@lucaslemes.com>",
                 to: ["lucas.lemes@lucaslemes.com", "andresrsmg@gmail.com"],
                 subject: `Nova Mensagem: ${name}`,
                 html: `

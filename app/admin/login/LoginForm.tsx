@@ -50,7 +50,7 @@ export default function LoginForm() {
                 Admin
             </h1>
             <p className="text-white/30 text-xs text-center mb-8 tracking-widest uppercase">
-                Lucas Lemes
+                LEMS
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-4">

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -10,6 +10,12 @@ const inter = Inter({
     subsets: ["latin"],
     weight: ["300", "400", "500", "600"],
     variable: "--font-inter",
+});
+
+const playfair = Playfair_Display({
+    subsets: ["latin"],
+    weight: ["400", "500", "600", "700"],
+    variable: "--font-playfair",
 });
 
 export async function generateStaticParams() {
@@ -25,20 +31,20 @@ export async function generateMetadata({
 
     const meta = {
         es: {
-            title: "Lucas Lemes — Videomaker & Producción Visual",
-            desc: "Portafolio de Lucas Lemes, videomaker y productor visual especializado en cine, branded content y producción audiovisual de alto nivel."
+            title: "LEMS — Creative Direction",
+            desc: "Portafolio de LEMS, dirección creativa especializada en cine, branded content y producción audiovisual de alto nivel."
         },
         en: {
-            title: "Lucas Lemes — Videomaker & Visual Production",
-            desc: "Portfolio of Lucas Lemes, videomaker and visual producer specialised in cinema, branded content and high-end audiovisual production."
+            title: "LEMS — Creative Direction",
+            desc: "Portfolio of LEMS, creative direction specialised in cinema, branded content and high-end audiovisual production."
         },
         pt: {
-            title: "Lucas Lemes — Videomaker & Produção Visual",
-            desc: "Portfólio de Lucas Lemes, videomaker e produtor visual especializado em cinema, branded content e produção audiovisual de alto nível."
+            title: "LEMS — Creative Direction",
+            desc: "Portfólio da LEMS, direção criativa especializada em cinema, branded content e produção audiovisual de alto nível."
         },
         fr: {
-            title: "Lucas Lemes — Vidéaste & Production Visuelle",
-            desc: "Portfolio de Lucas Lemes, vidéaste et producteur visuel spécialisé dans le cinéma, le contenu de marque et la production audiovisuelle haut de gamme."
+            title: "LEMS — Creative Direction",
+            desc: "Portfolio de LEMS, direction créative spécialisée dans le cinéma, le contenu de marque et la production audiovisuelle haut de gamme."
         }
     };
 
@@ -47,10 +53,10 @@ export async function generateMetadata({
     return {
         title: currentMeta.title,
         description: currentMeta.desc,
-        keywords: lang === "pt" ? ["videomaker", "produtor visual", "branded content", "cinema", "publicidade"] :
-            lang === "fr" ? ["vidéaste", "producteur visuel", "branded content", "cinéma", "publicité"] :
-                lang === "es" ? ["videomaker", "productor visual", "branded content", "cine", "publicidad"] :
-                    ["videomaker", "visual producer", "branded content", "film", "advertising"],
+        keywords: lang === "pt" ? ["direção criativa", "creative direction", "branded content", "cinema", "publicidade"] :
+            lang === "fr" ? ["direction créative", "creative direction", "branded content", "cinéma", "publicité"] :
+                lang === "es" ? ["dirección creativa", "creative direction", "branded content", "cine", "publicidad"] :
+                    ["creative direction", "branded content", "film", "advertising", "visual production"],
         openGraph: {
             title: currentMeta.title,
             description: currentMeta.desc,
@@ -71,7 +77,7 @@ export default async function LangLayout({
 
     return (
         <html lang={lang}>
-            <body className={`${inter.variable} antialiased min-h-screen flex flex-col`}>
+            <body className={`${inter.variable} ${playfair.variable} antialiased min-h-screen flex flex-col`}>
                 <Header lang={lang} />
                 <main className="flex-1">{children}</main>
                 <Footer lang={lang} />

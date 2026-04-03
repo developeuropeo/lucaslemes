@@ -45,7 +45,7 @@ export default function Footer({ lang }: { lang: Lang }) {
                     ))}
                 </div>
                 <p className="text-xs tracking-widest uppercase text-brand-gray font-light">
-                    © {new Date().getFullYear()} Lucas Lemes
+                    © {new Date().getFullYear()} LEMS
                 </p>
             </div>
         </footer>

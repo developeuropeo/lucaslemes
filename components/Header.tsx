@@ -43,9 +43,12 @@ export default function Header({ lang }: { lang: Lang }) {
         >
             <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-16 md:h-20">
                 {/* Logo */}
-                <Link href={`/${lang}`} className="hover:opacity-70 transition-opacity duration-300">
-                    <span className="text-lg md:text-xl tracking-[0.3em] font-light uppercase text-brand-black">
-                        Lucas Lemes
+                <Link href={`/${lang}`} className="hover:opacity-70 transition-opacity duration-300 flex flex-col items-start">
+                    <span className="text-lg md:text-xl tracking-[0.3em] font-normal uppercase text-brand-black font-[family-name:var(--font-playfair)]">
+                        LEMS
+                    </span>
+                    <span className="text-[9px] md:text-[10px] tracking-[0.25em] uppercase text-brand-gray font-light">
+                        Creative Direction
                     </span>
                 </Link>
 

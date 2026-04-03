@@ -9,6 +9,7 @@ const config: Config = {
         extend: {
             fontFamily: {
                 sans: ["var(--font-inter)", "Inter", "system-ui", "sans-serif"],
+                serif: ["var(--font-playfair)", "Playfair Display", "Georgia", "serif"],
             },
             colors: {
                 "brand-black": "#111111",

@@ -24,7 +24,7 @@ export default async function SobrePage({ params }: { params: Promise<{ lang: st
                     <div className="relative" style={{ aspectRatio: "3/4" }}>
                         <Image
                             src="/images/lucas-lemes-perfil.png"
-                            alt="Lucas Lemes — Videomaker"
+                            alt="LEMS — Creative Direction"
                             fill
                             className="object-cover object-top"
                             sizes="(max-width: 768px) 100vw, 50vw"
