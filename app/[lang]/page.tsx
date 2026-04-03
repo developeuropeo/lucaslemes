@@ -18,7 +18,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     const items = await getAllItems();
 
     const cat1Items = items
-        .filter((i) => i.category === "filme-video")
+        .filter((i) => i.category === "filme-video" && i.coverImage)
         .map((i) => {
             let title = i.titleEs;
             let subtitle = i.subtitleEs;

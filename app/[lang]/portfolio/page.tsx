@@ -37,7 +37,7 @@ export default async function PortfolioPage({ params }: { params: Promise<{ lang
         });
 
     const galleryItems = items
-        .filter((i) => (!i.videos || i.videos.length === 0) && i.images && i.images.length > 0)
+        .filter((i) => (!i.videos || i.videos.length === 0) && i.images && i.images.length > 0 && i.coverImage)
         .map((i) => {
             const title = lang === "en" ? i.titleEn
                 : lang === "pt" ? i.titlePt
