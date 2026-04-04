@@ -5,7 +5,7 @@ import VideoGallery from "@/components/VideoGallery";
 import PortfolioGrid from "@/components/PortfolioGrid";
 import Image from "next/image";
 
-import { getShowreelVideos, getPortfolioVideos, getAllItems } from "@/lib/portfolio-store";
+import { getShowreelVideos, getAllItems } from "@/lib/portfolio-store";
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
     const { lang } = await params;
@@ -13,12 +13,31 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     const h = t.home;
 
     const showreelVideos = getShowreelVideos();
-    const portfolioVideos = getPortfolioVideos(lang as "es" | "en");
-    const featuredVideos = portfolioVideos.slice(0, 3);
     const items = await getAllItems();
 
+    // Video items from DB (have videos, shown in VideoGallery)
+    const featuredVideos = items
+        .filter((i) => i.videos && i.videos.length > 0)
+        .map((i) => {
+            let title = i.titleEs;
+            let subtitle = i.subtitleEs;
+
+            if (lang === "en") { title = i.titleEn; subtitle = i.subtitleEn; }
+            else if (lang === "pt") { title = i.titlePt; subtitle = i.subtitlePt; }
+            else if (lang === "fr") { title = i.titleFr; subtitle = i.subtitleFr; }
+
+            return {
+                id: i.id,
+                title,
+                subtitle,
+                description: "",
+                src: i.videos[0],
+            };
+        });
+
+    // Photo items from DB (have cover images, shown in PortfolioGrid)
     const cat1Items = items
-        .filter((i) => i.category === "filme-video" && i.coverImage)
+        .filter((i) => i.coverImage && i.images && i.images.length > 0)
         .map((i) => {
             let title = i.titleEs;
             let subtitle = i.subtitleEs;
